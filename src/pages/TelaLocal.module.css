@@ -1,0 +1,64 @@
+
+.tela-local {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.titulo {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.opcoes-local {
+  display: flex;
+  gap: 30px;
+}
+
+.opcao-card {
+  width: 180px;
+  height: 220px;
+  background-color: #0b1b3d;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+  border: 0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transition: transform 0.1s;
+}
+
+.opcao-card:active {
+  transform: scale(0.92);
+}
+
+.icone-local {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.opcao-card h2 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .opcao-card {
+    width: 280px;
+    height: 320px;
+  }
+  .icone-local {
+    font-size: 10rem;
+  }
+  .opcao-card h2 {
+    font-size: 2rem;
+  }
+}

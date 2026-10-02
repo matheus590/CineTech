@@ -1,0 +1,35 @@
+.categoria-item {
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  color: #ccc;
+  border: 1px solid transparent;
+  transition: transform 0.1s;
+}
+
+.categoria-item:active {
+  transform: scale(0.92);
+}
+
+.categoria-ativa {
+  background-color: #0b1b3d;
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .categoria-item {
+    width: 90px;
+    height: 90px;
+    font-size: 0.9rem;
+  }
+}

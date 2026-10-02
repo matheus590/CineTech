@@ -1,0 +1,90 @@
+
+.tela-review {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.quantity-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #000;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.btn-qty {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #333;
+  background-color: #0b1b3d;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-qty:active {
+  transform: scale(0.9);
+}
+
+.qty-display {
+  font-size: 2rem;
+  font-weight: bold;
+  width: 50px;
+}
+
+.quantity-actions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.btn-adicionar {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #1d3557;
+  border: 1px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-cancelar {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #c00;
+  border: 1px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-voltar-inline {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-adicionar:active, .btn-cancelar:active, .btn-voltar-inline:active {
+  transform: scale(0.95);
+}

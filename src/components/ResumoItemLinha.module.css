@@ -1,0 +1,69 @@
+.item-review-linha {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #777;
+}
+
+.item-review-linha:last-child {
+  border-bottom: none;
+}
+
+.item-review-topo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 1px dashed #777;
+}
+
+.item-review-acoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #0b1b3d;
+}
+
+.btn-remover {
+  background-color: #c00;
+  color: white;
+  border: 1px solid #333;
+  padding: 5px 15px;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.review-qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ccc;
+  padding: 2px 5px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.review-qty-controls button {
+  background-color: #bbb;
+  border: 1px solid #333;
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-modificar {
+  background-color: #1d3557;
+  color: white;
+  border: 1px solid #333;
+  padding: 5px 15px;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

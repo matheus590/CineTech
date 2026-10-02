@@ -1,0 +1,37 @@
+
+.tela-splash {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b1b3d;
+  color: white;
+  cursor: pointer;
+}
+
+.banner-placeholder {
+  width: 80%;
+  height: 40%;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+
+.texto-iniciar {
+  font-size: 1.5rem;
+  font-weight: bold;
+  animation: piscar 1.5s infinite;
+  text-align: center;
+}
+
+@keyframes piscar {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@media (min-width: 600px) {
+  .texto-iniciar {
+    font-size: 4rem;
+  }
+}
